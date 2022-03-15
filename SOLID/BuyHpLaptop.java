@@ -1,6 +1,6 @@
 class BuyHpLaptop implements BuyableLaptop{
     @Override
-    public LaptopSpecification buyLaptop(){
+    public Specification buyLaptop(){
         LaptopSpecification myHpLap = new LaptopSpecification();
         myHpLap.add(new Hp());
         return myHpLap;

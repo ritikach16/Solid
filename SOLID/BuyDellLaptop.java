@@ -1,6 +1,6 @@
 class BuyDellLaptop implements BuyableLaptop{
     @Override
-    public LaptopSpecification buyLaptop(){
+    public Specification buyLaptop(){
         LaptopSpecification myDellLap = new LaptopSpecification();
             myDellLap.add(new Dell());
             return myDellLap;

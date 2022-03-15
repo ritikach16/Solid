@@ -1,3 +1,3 @@
 public interface BuyableLaptop{
-     LaptopSpecification buyLaptop();
+     Specification buyLaptop();
 }

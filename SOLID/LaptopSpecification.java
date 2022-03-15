@@ -8,13 +8,6 @@ public class LaptopSpecification implements Specification{
     }
 
     @Override
-    public void getCost(){
-        for(Packing laptop : laptopsList){
-            laptop.price();
-        }
-    }
-
-    @Override
     public void display(){
         for(Packing laptop : laptopsList){
             System.out.print("Laptop name : " + laptop.laptopName());
